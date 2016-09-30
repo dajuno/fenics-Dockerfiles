@@ -1,3 +1,7 @@
+# fenics stable:current build
+# extended by:  
+#   - zsh + config
+#   - python: scipy (update), pyyaml, matplotlib2tikz
 FROM quay.io/fenicsproject/stable:current
 USER root
 RUN apt-get update && apt-get install -y zsh && \
